@@ -1,0 +1,51 @@
+# ROS2 build artifacts
+build/
+install/
+log/
+
+# Colcon artifacts
+.colcon_install_layout
+.colcon_build_layout
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# C++
+*.o
+*.a
+*.so
+*.dll
+*.exe
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.bak
+*.backup
