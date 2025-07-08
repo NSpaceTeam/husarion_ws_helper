@@ -47,7 +47,7 @@
 
       # Update odometry from velocity
       # in sensor fusion only velocity is used and with this setting it is more accurate
-      position_feedback: false
+      position_feedback: true
       # velocity computation filtering
       velocity_rolling_window_size: 1
 
