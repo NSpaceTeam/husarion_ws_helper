@@ -59,26 +59,26 @@
       mount_point_y="${wheel_mount_point_y}"
       prefix="rr" />
     <xacro:cam.zed_camera
-      parent_link="mount_link"
-      xyz="0.2 0.0 0.1"
+      parent_link="cover_link"
+      xyz="0.25 0.0 0.0"
       rpy="0.0 0.0 0.0"
       device_namespace="front_cam"
       model="zedx"/>
     <xacro:cam.zed_camera
-      parent_link="mount_link"
-      xyz="-0.2 0.0 0.1"
+      parent_link="cover_link"
+      xyz="-0.25 0.0 0.0"
       rpy="0.0 0.0 3.1416"
       device_namespace="back_cam"
       model="zedx"/>
       <xacro:cam.zed_camera
-      parent_link="mount_link"
-      xyz="0.0 0.2 0.1"
+      parent_link="cover_link"
+      xyz="0.0 0.38 0.0"
       rpy="0.0 0.0 1.5708"
       device_namespace="left_cam"
       model="zedx"/>
       <xacro:cam.zed_camera
-      parent_link="mount_link"
-      xyz="0.0 -0.2 0.1"
+      parent_link="cover_link"
+      xyz="0.0 -0.38 0.0"
       rpy="0.0 0.0 -1.5708"
       device_namespace="right_cam"
       model="zedx"/>
